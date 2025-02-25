@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Convertor</h1>
+        <input type="number" id="amount" placeholder="Enter amount" value="1">
+        <div class="currency-group">
+            <img id="fromFlag" class="flag" src="" alt="">
+            <select id="fromCurrency"></select>
+        </div>
+        <span class="span">⇄</span>
+        <div class="currency-group">
+            <img id="toFlag" class="flag" src="" alt="">
+            <select id="toCurrency"></select>
+        </div>
+        <h2 class="h2">Результат:</h2>
+        <button id="convertBtn">Get exchange rate</button>
+        <p id="conversionDetails"></p>
+        <h2 id="result"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
